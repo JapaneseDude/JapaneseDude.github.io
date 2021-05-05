@@ -10,6 +10,17 @@
 
 
 body {
+  font-family: Arial;
   margin: 0;
     padding: 0;
-}
+}     
+
+.content {         
+    padding:20px;
+    text-align: left;
+    font-size-adjust: auto;
+    font-size: 15px
+        }
+
+p {
+    text-align: center;
