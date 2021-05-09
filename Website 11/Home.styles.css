@@ -5,10 +5,11 @@
   color: white;
   font-size: 20px;
    margin-top: 0px;
+font-family: Bahnschrift SemiBold;
 }
 
 body {
-  font-family: Arial;
+  font-family: Candara;
   margin: 0;
     padding: 0;
 }     
@@ -20,8 +21,6 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: aliceblue;
-    outline-color: darkslateblue;
-    outline-width: thin;
 }
 
 
@@ -30,7 +29,7 @@ ul {
   color: black;
   text-align: center;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
   border-radius: 6px;
    background-color: aliceblue; 
 }
@@ -53,15 +52,10 @@ text-decoration-line: none
 
 
 .pill-nav a:hover {
-  background-color: #74CEE6;
+  background-color: #BEBEBE;
   color: black;
 }
 
-
-.pill-nav a.active {
-  background-color: #4472C4;
-  color: white;
-}
 
 .content {         
     padding:20px;
