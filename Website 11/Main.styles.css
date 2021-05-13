@@ -7,8 +7,8 @@
   font-size: 20px;
   font-family: Bahnschrift SemiBold;
 }
-    
- .sidebar {
+
+.sidebar {
   height: 100%;
   width: 0;
   position: fixed;
@@ -62,12 +62,23 @@
   background-color: #444;
 }
 
+.content {         
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size-adjust: auto;
+    font-size: 17px;
+    font-family: Candara;
+        }
+
 #main {
   transition: margin-left .5s;
   padding-top: 10px;
 padding-left: 4px;
+    
 }
-
 
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
